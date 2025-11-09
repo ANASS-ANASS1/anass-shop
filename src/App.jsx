@@ -1,6 +1,12 @@
-import React from 'react'
-import Storefront from './Storefront'
+import React from "react";
+import Products from "./Products";
 
-export default function App(){
-  return <Storefront />
+function App() {
+  return (
+    <div dir="rtl">
+      <Products />
+    </div>
+  );
 }
+
+export default App;
