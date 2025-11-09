@@ -69,5 +69,6 @@ const products = [
     image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff'
   }
 ]
+"react-router-dom": "^6.14.1"
 
 export default products
