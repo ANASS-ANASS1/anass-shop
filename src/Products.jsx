@@ -1,10 +1,30 @@
 import React from "react";
 
 const products = [
-  { id: 1, name: "ساعة فاخرة", price: "250 درهم", image: "/watch.jpg" },
-  { id: 2, name: "حذاء رجالي", price: "180 درهم", image: "/shoes.jpg" },
-  { id: 3, name: "تيشيرت رجالي", price: "90 درهم", image: "/tshirt.jpg" },
-  { id: 4, name: "بدلة رياضية", price: "220 درهم", image: "/tracksuit.jpg" },
+  { 
+    id: 1, 
+    name: "ساعة فاخرة", 
+    price: "250 درهم", 
+    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30" 
+  },
+  { 
+    id: 2, 
+    name: "حذاء رجالي", 
+    price: "180 درهم", 
+    image: "https://images.unsplash.com/photo-1519744792095-2f2205e87b6f" 
+  },
+  { 
+    id: 3, 
+    name: "تيشيرت رجالي", 
+    price: "90 درهم", 
+    image: "https://images.unsplash.com/photo-1521335629791-ce4aec67dd47" 
+  },
+  { 
+    id: 4, 
+    name: "بدلة رياضية", 
+    price: "220 درهم", 
+    image: "https://images.unsplash.com/photo-1593032457869-8c46df9f3d5e" 
+  },
 ];
 
 export default function Products() {
@@ -40,3 +60,4 @@ export default function Products() {
     </section>
   );
 }
+
