@@ -1,11 +1,11 @@
 import React from "react";
 
 const products = [
-  { id: 1, name: "ساعة فخمة", price: 250, image: "/watch.jpg" },
-  { id: 2, name: "حذاء رياضي", price: 180, image: "/shoes.jpg" },
-  { id: 3, name: "تيشيرت رياضي", price: 90, image: "/tshirt.jpg" },
-  { id: 4, name: "طقم رياضي", price: 220, image: "/tracksuit.jpg" },
-];
+<img src="/watch.jpg" alt="ساعة فاخرة" />
+<img src="/shoes.jpg" alt="حذاء رجالي" />
+<img src="/tshirt.jpg" alt="تيشيرت رجالي" />
+<img src="/tracksuit.jpg" alt="بدلة رياضية" />
+
 
 export default function Products() {
   return (
