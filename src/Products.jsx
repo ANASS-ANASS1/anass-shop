@@ -1,30 +1,10 @@
 import React from "react";
 
 const products = [
-  {
-    id: 1,
-    name: "ساعة فاخرة",
-    price: "250 درهم",
-    image: "/watch.jpg",
-  },
-  {
-    id: 2,
-    name: "حذاء رياضي",
-    price: "180 درهم",
-    image: "/shoes.jpg",
-  },
-  {
-    id: 3,
-    name: "تيشيرت رجالي",
-    price: "90 درهم",
-    image: "/tshirt.jpg",
-  },
-  {
-    id: 4,
-    name: "بدلة رياضية",
-    price: "220 درهم",
-    image: "/tracksuit.jpg",
-  },
+  { id: 1, name: "ساعة فاخرة", price: "250 درهم", image: "/watch.jpg" },
+  { id: 2, name: "حذاء رجالي", price: "180 درهم", image: "/shoes.jpg" },
+  { id: 3, name: "تيشيرت رجالي", price: "90 درهم", image: "/tshirt.jpg" },
+  { id: 4, name: "بدلة رياضية", price: "220 درهم", image: "/tracksuit.jpg" },
 ];
 
 export default function Products() {
