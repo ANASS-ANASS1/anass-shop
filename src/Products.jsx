@@ -1,14 +1,10 @@
 import React from "react";
-import watch from "/src/assets/watch.jpg";
-import shoes from "/src/assets/shoes.jpg";
-import tshirt from "/src/assets/tshirt.jpg";
-import tracksuit from "/src/assets/tracksuit.jpg";
 
 const products = [
-  { id: 1, name: "ساعة فخمة", price: 250, image: watch },
-  { id: 2, name: "حذاء رياضي", price: 180, image: shoes },
-  { id: 3, name: "تيشيرت رياضي", price: 90, image: tshirt },
-  { id: 4, name: "طقم رياضي", price: 220, image: tracksuit },
+  { id: 1, name: "ساعة فخمة", price: 250, image: "/watch.jpg" },
+  { id: 2, name: "حذاء رياضي", price: 180, image: "/shoes.jpg" },
+  { id: 3, name: "تيشيرت رياضي", price: 90, image: "/tshirt.jpg" },
+  { id: 4, name: "طقم رياضي", price: 220, image: "/tracksuit.jpg" },
 ];
 
 export default function Products() {
@@ -36,4 +32,6 @@ export default function Products() {
       </div>
     </div>
   );
+}
+
 }
