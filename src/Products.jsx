@@ -5,8 +5,7 @@ const products = [
     id: 1, 
     name: "ساعة فاخرة", 
     price: "250 درهم", 
-    image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30" 
-  },
+    image: "https://alamalgroup.ps/upload/09-2025/cat/WhatsApp%20Image%202025-09-17%20at%2010.43.24%20AM.jpeg"
   { 
     id: 2, 
     name: "حذاء رجالي", 
