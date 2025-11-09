@@ -1,62 +1,73 @@
-import React from "react";
-
 const products = [
-  { 
-    id: 1, 
-    name: "ساعة فاخرة", 
-    price: "250 درهم", 
-    image: "https://alamalgroup.ps/upload/09-2025/cat/WhatsApp%20Image%202025-09-17%20at%2010.43.24%20AM.jpeg"
-  { 
-    id: 2, 
-    name: "حذاء رجالي", 
-    price: "180 درهم", 
-    image: "https://images.unsplash.com/photo-1519744792095-2f2205e87b6f" 
+  // ساعات فاخرة
+  {
+    id: 'w1',
+    category: 'ساعات فاخرة',
+    name: 'ساعة كلاسيك سيلفر',
+    desc: 'هيكل فولاذي، حزام جلد أصلي، مقاومة للماء حتى 30 متر.',
+    price: 3250,
+    image: 'https://images.unsplash.com/photo-1523275335684-37898b6baf30'
   },
-  { 
-    id: 3, 
-    name: "تيشيرت رجالي", 
-    price: "90 درهم", 
-    image: "https://images.unsplash.com/photo-1521335629791-ce4aec67dd47" 
+  {
+    id: 'w2',
+    category: 'ساعات فاخرة',
+    name: 'ساعة رولكس تقليدية (نسخة راقية)',
+    desc: 'تصميم فخم مع عقارب مضيئة ووظائف تاريخ.',
+    price: 12999,
+    image: 'https://images.unsplash.com/photo-1519744792095-2f2205e87b6f'
   },
-  { 
-    id: 4, 
-    name: "بدلة رياضية", 
-    price: "220 درهم", 
-    image: "https://images.unsplash.com/photo-1593032457869-8c46df9f3d5e" 
+  {
+    id: 'w3',
+    category: 'ساعات فاخرة',
+    name: 'ساعة مينا أسود فاخرة',
+    desc: 'مينا أسود مع إطار مطلي بالذهب الوردي.',
+    price: 4850,
+    image: 'https://images.unsplash.com/photo-1518544888095-1b1a4d3f0d62'
   },
-];
 
-export default function Products() {
-  return (
-    <section className="py-10 px-6 bg-gray-50">
-      <h2 className="text-3xl font-bold text-center mb-8 text-gray-800">
-        منتجاتنا المميزة 🛍️
-      </h2>
+  // ملابس رجالية
+  {
+    id: 'm1',
+    category: 'ملابس رجالية',
+    name: 'قميص قطن كلاسيكي',
+    desc: 'قماش قطن 100%، قصّة مريحة للنهار والمشاوير.',
+    price: 299,
+    image: 'https://images.unsplash.com/photo-1521335629791-ce4aec67dd47'
+  },
+  {
+    id: 'm2',
+    category: 'ملابس رجالية',
+    name: 'بنطلون رسمي رمادي',
+    desc: 'مناسب للمكاتب والمناسبات الرسمية، قماشة عالية الجودة.',
+    price: 499,
+    image: 'https://images.unsplash.com/photo-1541099649105-f69ad21f3246'
+  },
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        {products.map((product) => (
-          <div
-            key={product.id}
-            className="bg-white rounded-2xl shadow-md p-4 hover:shadow-lg transition"
-          >
-            <img
-              src={product.image}
-              alt={product.name}
-              className="w-full h-56 object-cover rounded-xl mb-4"
-            />
-            <h3 className="text-xl font-semibold text-gray-700 mb-2 text-center">
-              {product.name}
-            </h3>
-            <p className="text-center text-green-600 font-bold mb-4">
-              {product.price}
-            </p>
-            <button className="w-full bg-blue-600 text-white py-2 rounded-xl hover:bg-blue-700 transition">
-              أضف إلى السلة 🛒
-            </button>
-          </div>
-        ))}
-      </div>
-    </section>
-  );
-}
+  // ملابس رياضية
+  {
+    id: 's1',
+    category: 'ملابس رياضية',
+    name: 'تيشيرت رياضي تنفّس',
+    desc: 'خفة، مادة تسمح بمرور الهواء للتمارين المكثفة.',
+    price: 149,
+    image: 'https://images.unsplash.com/photo-1593032457869-8c46df9f3d5e'
+  },
+  {
+    id: 's2',
+    category: 'ملابس رياضية',
+    name: 'طقم رياضي كامل',
+    desc: 'سويت شيرت وبنطال رياضي خفيف ومطاطي لحركة مريحة.',
+    price: 399,
+    image: 'https://images.unsplash.com/photo-1600180758897-518b9a20b9b6'
+  },
+  {
+    id: 's3',
+    category: 'ملابس رياضية',
+    name: 'حذاء جري خفيف',
+    desc: 'نعل مريح يمتص الصدمات، مناسب للجري اليومي.',
+    price: 699,
+    image: 'https://images.unsplash.com/photo-1542291026-7eec264c27ff'
+  }
+]
 
+export default products
