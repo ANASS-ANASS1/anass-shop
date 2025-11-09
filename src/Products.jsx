@@ -1,8 +1,8 @@
 import React from "react";
-import watch from "./assets/watch.jpg";
-import shoes from "./assets/shoes.jpg";
-import tshirt from "./assets/tshirt.jpg";
-import tracksuit from "./assets/tracksuit.jpg";
+import watch from "/src/assets/watch.jpg";
+import shoes from "/src/assets/shoes.jpg";
+import tshirt from "/src/assets/tshirt.jpg";
+import tracksuit from "/src/assets/tracksuit.jpg";
 
 const products = [
   { id: 1, name: "ساعة فخمة", price: 250, image: watch },
